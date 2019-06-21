@@ -20,6 +20,27 @@ def create_pattern_lines():
 def display_pattern_lines(pattern_lines):
 	return np.flip(pattern_lines, 0)
 
+
+
+class Player(object):
+    pass
+
+class TileBag(object):
+    pass
+
+class Tile(object):
+    def __init__(self):
+        colors = ["red", "yellow", "teal", "black", "white"]
+        values = [1, 2, 3, 4, 5]
+
+class Factory(object):
+    pass
+
+
+
+
+
+
 game_over = FALSE
 
 # game loop
